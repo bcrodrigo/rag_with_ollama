@@ -1,1 +1,5 @@
 .DS_Store
+# misc. directories
+data/
+database/
+tests/
