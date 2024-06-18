@@ -23,7 +23,7 @@ from langchain_community.vectorstores import Chroma
 
 PATH_TO_DATABASE = "../database/"
 PATH_TO_DATA = "../data"
-MODEL_NAME = 'llama2'
+MODEL_NAME = 'llama3'
 
 def main():
 
@@ -32,8 +32,8 @@ def main():
     parser.add_argument(
         "--reset", 
         action="store_true", 
-        help="Reset the database.")
-    
+        help="reset the database")
+
     args = parser.parse_args()
     if args.reset:
         print("Clearing Database")
