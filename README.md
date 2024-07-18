@@ -1,6 +1,6 @@
-# rag_with_ollama
+## Description
 
-Repository to test RAG using Ollama locally on my computer.
+Repository to test Retrieval Augmented Generation (RAG) on-device using Ollama.
 
 ## Background and Motivation
 
